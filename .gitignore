@@ -1,0 +1,21 @@
+# Ignore virtual environment
+.virtualenvs/
+pipenv_venv/
+
+# Ignore environment-specific files
+.env
+*.env
+*.pyc
+__pycache__/
+.DS_Store
+
+# Ignore dependencies lock file (optional)
+Pipfile.lock
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore IDE/editor config files
+.vscode/
+.idea/
+*.swp
